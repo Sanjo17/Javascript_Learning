@@ -1,0 +1,16 @@
+body{
+    background-color: aliceblue;
+    
+}
+.container{
+    background-color: rgba(0, 255, 255, 0.473);
+    border: 1px solid rgba(14, 18, 18, 0.473);
+    padding: 20px;
+    text-align: center;
+    max-width: 50%;
+    max-height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}

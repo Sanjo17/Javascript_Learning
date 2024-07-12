@@ -1,0 +1,57 @@
+.details{
+    display: none;
+    color: #999999;
+
+}
+#loadmore{
+    cursor: pointer;
+    border: none;
+    background-color: #111111;
+    color: #999999;
+    
+}
+
+.border{
+    
+    display:flex
+    
+    
+}
+.bet-box{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px;
+    width: 35%;
+    height: auto;
+    background-color: #333333;
+    color: #999999;
+    
+
+    
+    
+}
+.result{
+   color: aliceblue;
+   
+   background-color:#555555;
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    
+}
+body{
+    background-color: 	#111111;
+}
+h1,h3{
+    color: #999999;
+}
+.result h6{
+    font-size: 40px;
+    display: block;
+}

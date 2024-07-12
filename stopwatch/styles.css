@@ -1,0 +1,54 @@
+.stop-container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+
+}
+.stop{
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+body{
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+button{
+    font-size: 30px;
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+}
+#start{
+    background-color: rgb(26, 221, 26);
+    color: aliceblue;
+   
+}
+#stop{
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+
+}
+#reset{
+    background-color: rgb(17, 17, 243);
+    color: aliceblue;
+
+}
+#start:hover{
+    background-color: rgb(100, 147, 29);
+}
+#stop:hover{
+    background-color: rgb(209, 24, 24);
+}
+#reset:hover{
+    background-color: rgb(27, 40, 182);
+}

@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whetherform{
+    margin: 20px;
+
+
+}
+.cityinput{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 2px 2px 5px rgb(255, 3, 142);
+    
+}
+
+button[type = 'submit']{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: rgb(4, 4, 4);
+    border-radius: 10px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(255, 3, 142);
+}
+button[type="submit"]:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.card{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(80deg,rgb(225, 96, 225),rgb(247, 70, 247),violet);
+    box-shadow: 2px 2px 5px rgb(255, 3, 142);
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1.cityDisplay{
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+
+}
+h2{
+    margin: 5px 0;
+
+}
+img{
+    max-width: 200px;
+    max-height: 100px;
+
+}
+.errordisplay{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+}
+

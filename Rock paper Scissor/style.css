@@ -1,0 +1,59 @@
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90hv;
+}
+body{
+    margin: 0;
+    background-color: rgb(233, 57, 112);
+    
+    
+
+}
+.img1{
+    width: 10vh;
+    height: 50vh;
+    background-color: aliceblue;
+}
+.img2{
+    width: 10vh;
+}
+.ti{
+    text-align: center;
+}
+
+.player1-box{
+    background-color: aqua;
+    height: 50%;
+    padding: 10px;
+    width: 40vh;
+    overflow: hidden;
+    
+}
+img{border-radius: 40px;}
+img:hover{
+    background-color: black;
+    
+}
+.player2-box{
+    background-color: rgb(60, 15, 207);
+    height: 50%;
+    padding: 10px;
+    width: 40vh;
+
+}
+.playarea{
+    background-color: rgb(28, 168, 32);
+    height: 50vh;
+    width: 60vh;
+    padding: 10px;
+    
+
+}
+.title{
+    
+    text-align: center;
+    
+}

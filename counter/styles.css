@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    
+}
+.box{
+    
+    text-align: center;
+    gap: auto;
+    
+    
+    
+}
+#count{
+    
+    font-size: 10em;
+    display:block;
+    text-align: center;
+    color: aqua;
+    
+    
+    
+}
+button{
+    padding: 10px;
+    font-size: small;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: aqua;
+}

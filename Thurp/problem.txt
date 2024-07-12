@@ -1,0 +1,14 @@
+red = [10,20,30]
+blue = [1,100,150]
+budget = 200
+
+price !< 0
+price != null
+
+red[0]+blue[0] !> budget
+
+return { "red": -1,
+         "blue":-1,
+         "total":-1 }
+
+minimum 1 red and blue required
